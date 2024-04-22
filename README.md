@@ -2,6 +2,8 @@
 
 [![Author: Razirp](https://img.shields.io/badge/author-Razirp-cc0000)](https://github.com/Razirp) [![License](https://img.shields.io/github/license/Razirp/SLIC_Simple-Linear-Iterative-Clustering)](https://github.com/Razirp/SLIC_Simple-Linear-Iterative-Clustering/blob/main/LICENSE) [![Language: C++](https://img.shields.io/badge/Language-C%2B%2B-blue)](https://cppreference.com/) [![Built with OpenCV](https://img.shields.io/badge/Built%20with-OpenCV-%232737A6?style=flat-square&logo=opencv&logoColor=white&link=https://opencv.org)](https://opencv.org) [![CSDN Blog](https://img.shields.io/static/v1?label=CSDN%20Blog&message=Visit&color=e96140&style=flat-square)](https://blog.csdn.net/qq_45899276/article/details/138095302?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22138095302%22%2C%22source%22%3A%22qq_45899276%22%7D) ![HitCount](https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2FRazirp%2FSLIC_Simple-Linear-Iterative-Clustering.json%3Fcolor%3Dff9900) [![GitHub stars](https://img.shields.io/github/stars/Razirp/SLIC_Simple-Linear-Iterative-Clustering)](https://github.com/Razirp/SLIC_Simple-Linear-Iterative-Clustering/stargazers)
 
+📖 For English users, you can refer to the [English version](README_EN.md)!
+
 > 本存储库是作者进行 SLIC 算法复现实验时的源码，以下是相应的实验报告。
 
 <img src="README.assets/image-20220114112051260-171379515233010.png" alt="image-20220114112051260" style="zoom: 50%;" />
@@ -473,27 +475,27 @@ int main(int argc, char* argv[])
 
 - k = 128，m = 10
 
-<img src="README.assets/result-16421325323454-171379515233011.jpg" alt="result" style="zoom:80%;" />
+	<img src="README.assets/result-16421325323454-171379515233011.jpg" alt="result" style="zoom:80%;" />
 
 - k = 128，m = 40
 
-<img src="README.assets/result-16421307262641-171379515233012.jpg" alt="result" style="zoom:80%;" />
+	<img src="README.assets/result-16421307262641-171379515233012.jpg" alt="result" style="zoom:80%;" />
 
 - k = 1024 ，m = 10
 
-<img src="README.assets/result-16421324772843-171379515233013.jpg" alt="result" style="zoom:80%;" />
+	<img src="README.assets/result-16421324772843-171379515233013.jpg" alt="result" style="zoom:80%;" />
 
 - k = 1024，m = 40
 
-<img src="README.assets/result-171379515233014.jpg" alt="result" style="zoom:80%;" />
+	<img src="README.assets/result-171379515233014.jpg" alt="result" style="zoom:80%;" />
 
 - k = 2048，m = 10
 
-<img src="README.assets/result-16421329591845-171379515233015.jpg" alt="result" style="zoom:80%;" />
+	<img src="README.assets/result-16421329591845-171379515233015.jpg" alt="result" style="zoom:80%;" />
 
 - k = 2048，m = 40
 
-<img src="README.assets/result-16421307961432-171379515233016.jpg" alt="result" style="zoom:80%;" />
+	<img src="README.assets/result-16421307961432-171379515233016.jpg" alt="result" style="zoom:80%;" />
 
 通过对比可以看出：
 
