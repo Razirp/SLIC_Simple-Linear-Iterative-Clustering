@@ -40,7 +40,7 @@
 
 1. 初始化算法：
 
-   1. 以步长 $S=\sqrt{\frac{N}{k}}$ 对像素进行采样，初始化聚类中心 $C_{k}=\begin{bmatrix} l_{k} & a_{k} & b_{k} & x_{k} & y_{k} \end{bmatrix}^{T}$ 
+   1. 以步长 $S=\sqrt{\frac{N}{k}}$ 对像素进行采样，初始化聚类中心 $C_{k}=\begin{bmatrix} l_{k} & a_{k} & b_{k} & x_{k} & y_{k} \end{bmatrix}^{T}$
    2. 移动聚类中心至其 $3\times 3$ 邻域中的梯度最小位置
    3. 对每一个像素，设置聚类标签 $L(i)=-1$ 和距离 $d(i)=\infty$
 
