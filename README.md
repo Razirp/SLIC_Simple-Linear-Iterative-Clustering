@@ -40,7 +40,7 @@
 
 1. 初始化算法：
 
-   1. 以步长 $S=\sqrt{\frac{N}{k}}$ 对像素进行采样，初始化聚类中心 $C_{k}=\begin{bmatrix} l_{k} & a_{k} & b_{k} & x_{k} & y_{k} \end{bmatrix}^{T}$
+   1. 以步长 $S=\sqrt{\frac{N}{k}}$ 对像素进行采样，初始化聚类中心 $C_{k}=[l_{k}\ a_{k}\ b_{k}\ x_{k}\ y_{k}]^{T}$
    2. 移动聚类中心至其 $3\times 3$ 邻域中的梯度最小位置
    3. 对每一个像素，设置聚类标签 $L(i)=-1$ 和距离 $d(i)=\infty$
 
@@ -534,3 +534,11 @@ int main(int argc, char* argv[])
 ## 参考文献
 
 1. Radhakrishna Achanta, Appu Shaji, Kevin Smith, Aurelien Lucchi, Pascal Fua, and Sabine Süsstrunk, SLIC Superpixels Compared to State-of-the-art Superpixel Methods, IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 34, num. 11, p. 2274 – 2282, May 2012. Citation~6780
+
+## 许可证
+
+本项目采用MIT许可协议 – 详情请参阅 [LICENSE](LICENSE) 文件。
+
+## 联系方式
+
+如有任何问题或咨询，请通过 razirp77@outlook.com 与我联系。
